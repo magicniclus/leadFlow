@@ -1,3 +1,5 @@
+import SidebarLayout from "../components/layout/SidebarLayout";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold">Hello world!</h1>;
+  return <SidebarLayout></SidebarLayout>;
 }
