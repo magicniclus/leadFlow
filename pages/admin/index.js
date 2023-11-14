@@ -1,8 +1,13 @@
 import React from "react";
 import SidebarLayout from "../../components/layout/SidebarLayout";
+import LeadList from "../../components/list/LeadList";
 
 const index = () => {
-  return <SidebarLayout></SidebarLayout>;
+  return (
+    <SidebarLayout>
+      <LeadList />
+    </SidebarLayout>
+  );
 };
 
 export default index;
